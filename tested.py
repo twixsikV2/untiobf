@@ -14,7 +14,7 @@ from PyQt5.QtGui import QFont
 class SimpleCalculator(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("🧮 Простой Калькулятор")
+        self.setWindowTitle("Create By @twix and perplexity ai")
         self.setGeometry(300, 300, 300, 400)
         
         # Центральный виджет
@@ -57,7 +57,7 @@ class SimpleCalculator(QMainWindow):
             layout.addWidget(btn)
         
         # Заголовок
-        title = QLabel("Простой Калькулятор v1.0")
+        title = QLabel("Калькулятор")
         title.setFont(QFont("Arial", 12))
         title.setAlignment(Qt.AlignCenter)
         layout.addWidget(title)
@@ -97,3 +97,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
